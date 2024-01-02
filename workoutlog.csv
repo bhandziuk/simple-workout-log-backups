@@ -1,4 +1,3 @@
------Strength-----
 Date,Time,Exercise,# of Reps,Weight,Notes
 "12/31/23","15:26","Sit-ups","20","0","60s plank between"
 "12/31/23","15:26","Sit-ups","20","0"
@@ -27227,6 +27226,3 @@ Date,Time,Exercise,Duration,Distance,Heart Rate,Calories,Notes
 "6/9/19","10:28","Swim","","1000","null","null",""
 "6/2/19","10:29","Swim","","800","null","null",""
 "10/6/18","18:25","Hold Farmer's Handle","00:00:35","320","null","null",""
-
------Weight-----
-Date,Time,Weight,Notes
