@@ -1,0 +1,23 @@
+{
+  "name": "simpleworkoutlogbackups",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "split": "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhandziuk/simple-workout-log-backups.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhandziuk/simple-workout-log-backups/issues"
+  },
+  "homepage": "https://github.com/bhandziuk/simple-workout-log-backups#readme",
+  "dependencies": {
+    "papaparse": "^5.4.1"
+  }
+}
