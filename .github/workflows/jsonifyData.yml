@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [ "master" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: "split"
+
+      - name: Save json data to artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: code-coverage-report
+          path: output/strength.json
