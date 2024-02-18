@@ -14,8 +14,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: "npm install"
+        run: "npm install"
+
       # Runs a single command using the runners shell
-      - name: Run a one-line script
+      - name: "Split CSV to JSON Files"
         run: "node index.mjs"
 
       - name: Save json data to artifacts
